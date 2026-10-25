@@ -1,96 +1,79 @@
-# 🌐 Web Development ABL Projects
+# Web Development ABL Programs
 
-## 👨‍🎓 About Me
-
-Hello! My name is **Chokkara Manjunadha**. I am a first-year B.Tech student specializing in **Computer Science and Engineering – Artificial Intelligence and Machine Learning (CSE-AIML)**.
+## Student Details
 
 - **Name:** Chokkara Manjunadha
-- **Branch:** CSE-AIML
+- **Course:** B.Tech – 1st Year
+- **Branch:** CSE (AI/ML)
 - **Section:** 1
 - **Roll Number:** 26000884
 - **College:** NRI University, Vijayawada
-- **Technologies Used:** HTML5 and CSS3
 
-I am interested in programming, web development, artificial intelligence, and learning new technologies. Through these projects, I am developing my knowledge of HTML and CSS and improving my practical coding skills.
+## About Me
 
-## 💻 About This Project
+I am Chokkara Manjunadha, a first-year B.Tech student specializing in Computer Science and Engineering (Artificial Intelligence and Machine Learning). I am learning web development using HTML and CSS to create attractive, responsive, and user-friendly websites.
 
-This repository contains three Web Development Activity-Based Learning (ABL) programs created using HTML and CSS. Each program demonstrates webpage structure, styling, navigation, sections, cards, and responsive layouts.
+## Programs Included
 
-## 📁 Programs Included
+### Program 1: Personal Portfolio Website
 
-### 1. Personal Portfolio Website
-
-**File:** `portfolio.html`
-
-A personal portfolio webpage that introduces me and presents my educational details, technical skills, projects, and contact information.
+A personal portfolio website that introduces me and displays my education, skills, projects, and contact information.
 
 **Features:**
-- Personal introduction
-- Education details
-- Skills section
-- Project cards
-- Contact information
-- Purple gradient header and styled navigation menu
+- Attractive purple-themed design
+- About Me section
+- Education and skills sections
+- Projects and contact information
 
-### 2. NRI College Website
+### Program 2: Gaming Zone Website
 
-**File:** `college.html`
-
-A college information webpage designed to display information about the college, courses, facilities, and contact details.
+A gaming-themed website designed for gaming enthusiasts, featuring an attractive dark background and colorful headings.
 
 **Features:**
-- College header and welcome section
-- About the college
-- Course cards
-- Facilities section
-- Contact information
-- Blue and teal color theme
+- Black background with an aqua-colored header
+- Gaming title: 🎮 GAMING ZONE 🎮
+- Gaming instructions displayed as a list
+- Centered gaming images
+- Three styled content boxes
+- CSS background images and list styling
 
-### 3. PowerFit Gym Website
+### Program 3: PowerFit Gym Website
 
-**File:** `gym.html`
-
-A fitness website designed to introduce gym programs and membership plans.
+A gym website designed to introduce fitness programs, gym facilities, and membership information.
 
 **Features:**
-- Gym introduction
-- Fitness programs
-- Membership plans with prices
-- Contact information
 - Green-themed design
-- Navigation menu and call-to-action button
+- About the gym section
+- Fitness programs
+- Membership information
+- Contact details
 
-## 🛠️ Technologies Used
+## Technologies Used
 
-- **HTML5:** Used to create the structure and content of the webpages.
-- **CSS3:** Used to style the webpages with colors, layouts, cards, spacing, gradients, and responsive design.
+- **HTML5:** Used to create the structure of web pages.
+- **CSS3:** Used to style the pages with colors, backgrounds, layouts, and other visual effects.
 
-## ▶️ How to Run the Programs
+## How to Run the Programs
 
-1. Download or clone this repository.
-2. Open the project folder.
+1. Download the HTML files from the project repository.
+2. Save the files on your computer.
 3. Double-click any `.html` file.
-4. View the webpage in a web browser such as Google Chrome.
+4. The website will open in your default web browser.
 
-## 🎯 Learning Outcomes
+## Learning Outcomes
 
-Through these projects, I practised:
-- Creating webpages using HTML.
-- Applying CSS styles and layouts.
-- Designing navigation menus and content sections.
-- Using cards, gradients, spacing, and colors.
-- Organizing code into readable sections.
-- Building different types of websites.
+- Learned the basic structure of HTML documents.
+- Practiced HTML headings, paragraphs, lists, links, and images.
+- Applied CSS colors, backgrounds, borders, and layouts.
+- Learned to create different website designs using HTML and CSS.
+- Improved practical web development skills.
 
-## 📝 Conclusion
+## Conclusion
 
-These three projects helped me practise the fundamentals of HTML and CSS by creating a personal portfolio, a college website, and a gym website. I will continue improving my web development skills and learning more advanced technologies.
+These three programs helped me understand the fundamentals of web development. By creating a personal portfolio, a Gaming Zone website, and a gym website, I gained practical experience in designing web pages using HTML and CSS.
 
 ---
 
 **Created by:** Chokkara Manjunadha  
-**Branch:** CSE-AIML | **Section:** 1  
+**Branch:** CSE (AI/ML)  
 **College:** NRI University, Vijayawada
-
-*Thank you for visiting my repository!*
