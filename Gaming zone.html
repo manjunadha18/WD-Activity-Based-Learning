@@ -1,0 +1,208 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Neon Gaming Zone</title>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: #090914;
+    color: white;
+}
+header {
+    padding: 22px 8%;
+    background: #151326;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    border-bottom: 1px solid #37305e;
+}
+.logo {
+    color: #c084fc;
+    font-size: 27px;
+    font-weight: bold;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 18px;
+}
+nav a:hover {
+    color: #c084fc;
+}
+.hero {
+    text-align: center;
+    padding: 90px 6%;
+    background: linear-gradient(135deg, #241044, #10102a, #102e46);
+}
+.hero .label {
+    color: #67e8f9;
+    letter-spacing: 4px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.hero h1 {
+    font-size: clamp(38px, 7vw, 66px);
+    margin: 22px 0;
+}
+.hero h1 span {
+    color: #c084fc;
+}
+.hero p {
+    color: #d4d4e8;
+    line-height: 1.8;
+}
+.btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 14px 25px;
+    background: #c084fc;
+    color: #160b27;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+}
+section {
+    padding: 55px 8%;
+}
+h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+h2 span {
+    color: #c084fc;
+}
+.games {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 22px;
+}
+.game {
+    overflow: hidden;
+    background: #171629;
+    border: 1px solid #383052;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+.game:hover {
+    transform: translateY(-8px);
+    border-color: #c084fc;
+}
+.art {
+    height: 145px;
+    display: grid;
+    place-items: center;
+    font-size: 65px;
+}
+.art.one {
+    background: linear-gradient(135deg, #4c1d95, #111827);
+}
+.art.two {
+    background: linear-gradient(135deg, #164e63, #172554);
+}
+.art.three {
+    background: linear-gradient(135deg, #7f1d1d, #312e81);
+}
+.game-content {
+    padding: 22px;
+}
+.game h3 {
+    color: #67e8f9;
+    margin-bottom: 10px;
+}
+.game p {
+    color: #c8c7d8;
+    line-height: 1.7;
+}
+.features {
+    background: #121121;
+    text-align: center;
+}
+.features p {
+    color: #d4d4e8;
+    line-height: 2;
+}
+footer {
+    padding: 24px;
+    text-align: center;
+    background: #151326;
+    color: #c8c7d8;
+}
+@media(max-width: 600px) {
+    header { justify-content: center; }
+    nav { text-align: center; }
+    nav a { display: inline-block; margin: 8px; }
+}
+</style>
+</head>
+<body>
+
+<header>
+    <div class="logo">🎮 NEON ZONE</div>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#games">Games</a>
+        <a href="#features">Features</a>
+    </nav>
+</header>
+
+<div class="hero" id="home">
+    <p class="label">WELCOME TO THE NEXT LEVEL</p>
+    <h1>ENTER THE <span>GAMING</span> WORLD</h1>
+    <p>Discover adventures, explore virtual worlds, and level up your experience.</p>
+    <a class="btn" href="#games">EXPLORE GAMES ↓</a>
+</div>
+
+<section id="games">
+    <h2>FEATURED <span>GAMES</span></h2>
+    <div class="games">
+        <div class="game">
+            <div class="art one">⚔️</div>
+            <div class="game-content">
+                <h3>Action Arena</h3>
+                <p>Enter exciting battles, test your skills, and become a champion.</p>
+            </div>
+        </div>
+        <div class="game">
+            <div class="art two">🏎️</div>
+            <div class="game-content">
+                <h3>Speed Racers</h3>
+                <p>Experience thrilling tracks, powerful vehicles, and fast-paced fun.</p>
+            </div>
+        </div>
+        <div class="game">
+            <div class="art three">🌌</div>
+            <div class="game-content">
+                <h3>Galaxy Quest</h3>
+                <p>Explore mysterious planets and discover the wonders of space.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="features" id="features">
+    <h2>WHY CHOOSE <span>NEON ZONE?</span></h2>
+    <p>✨ Exciting gaming experiences</p>
+    <p>🎯 Discover different game genres</p>
+    <p>🚀 Explore new virtual worlds</p>
+    <p>🎮 Play, learn, and have fun</p>
+</section>
+
+<footer>
+    <p>Designed by Chokkara Manjunadha</p>
+    <p>CSE (AI & ML) | Section 1 | Roll No: 26000884</p>
+    <p>© 2026 Neon Gaming Zone</p>
+</footer>
+
+</body>
+</html>
